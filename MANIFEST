@@ -1,0 +1,10 @@
+Changelog
+examples/forking-server.pl
+examples/MyDemoServer.pm
+examples/simple-server.pl
+Makefile.PL
+MANIFEST			This list of files
+META.yml			Module meta-data (added by MakeMaker)
+Net/LDAP/Server.pm
+README
+t/01-use.t.pl
