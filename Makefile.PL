@@ -4,7 +4,7 @@ WriteMakefile(
     'NAME'		=> 'Net::LDAP::Server',
     'ABSTRACT'	=> 'LDAP server side protocol handling',
     'AUTHOR'	=> 'Alessandro Ranellucci <aar@cpan.org>',
-    'VERSION_FROM'	=> 'Net/LDAP/Server.pm',
+    'VERSION_FROM'	=> 'lib/Net/LDAP/Server.pm',
     'PREREQ_PM'		=> {
     	Net::LDAP => 0,
     	Convert::ASN1 => 0

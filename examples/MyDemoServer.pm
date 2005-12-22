@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Data::Dumper;
 
-use lib '..';
+use lib '../lib';
 use Net::LDAP::Constant qw(LDAP_SUCCESS);
 use Net::LDAP::Server;
 use base 'Net::LDAP::Server';
