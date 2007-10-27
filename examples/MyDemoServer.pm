@@ -37,6 +37,7 @@ sub search {
 	my $self = shift;
 	my $reqData = shift;
 	print "Searching...\n";
+	print Dumper($reqData);
 	my $base = $reqData->{'baseObject'};
 	
 	# plain die if dn contains 'dying'
